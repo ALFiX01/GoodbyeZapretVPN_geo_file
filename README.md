@@ -1,2 +1,2 @@
-# GoodbyeZapretVPN_geo_file
+# GoodbyeZapretVPN_geo
 
