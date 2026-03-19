@@ -48,7 +48,6 @@ domain:wb.ru
 domain:x5.ru
 domain:ya.ru
 domain:yandex.net
-domain:yandex1.net
 domain:qq.com
 domain:ru.com
 domain:vk.com
