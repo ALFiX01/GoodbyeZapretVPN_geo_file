@@ -5,6 +5,8 @@ on:
     paths:
       - "geoip_list.txt"
       - "geosite_list.txt"
+      - "edits/geoip_list.txt"
+      - "edits/geosite_list.txt"
       - "geo_tool.ps1"
   workflow_dispatch:
 

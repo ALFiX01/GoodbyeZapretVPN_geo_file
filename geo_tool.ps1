@@ -9,6 +9,44 @@ param(
     [string]$GeoSiteTxt = 'geosite_list.txt'
 )
 
+function Resolve-PathIfMissing {
+    param([string]$PathValue, [string[]]$Candidates)
+    if (Test-Path $PathValue) { return $PathValue }
+    foreach ($c in $Candidates) {
+        if (Test-Path $c) { return $c }
+    }
+    return $PathValue
+}
+
+function Resolve-OutputPath {
+    param([string]$PathValue, [string[]]$Candidates)
+    if (Test-Path $PathValue) { return $PathValue }
+    foreach ($c in $Candidates) {
+        $dir = Split-Path -Parent $c
+        if (-not $dir) { continue }
+        if (Test-Path $dir) { return $c }
+    }
+    return $PathValue
+}
+
+$editsGeoIp = Join-Path 'edits' 'geoip_list.txt'
+$editsGeoSite = Join-Path 'edits' 'geosite_list.txt'
+$completeGeoIp = Join-Path 'complete' 'geoip.dat'
+$completeGeoSite = Join-Path 'complete' 'geosite.dat'
+
+if (-not $PSBoundParameters.ContainsKey('GeoIpTxt')) {
+    $GeoIpTxt = Resolve-PathIfMissing $GeoIpTxt @($editsGeoIp)
+}
+if (-not $PSBoundParameters.ContainsKey('GeoSiteTxt')) {
+    $GeoSiteTxt = Resolve-PathIfMissing $GeoSiteTxt @($editsGeoSite)
+}
+if (-not $PSBoundParameters.ContainsKey('GeoIpDat')) {
+    $GeoIpDat = Resolve-OutputPath $GeoIpDat @($completeGeoIp)
+}
+if (-not $PSBoundParameters.ContainsKey('GeoSiteDat')) {
+    $GeoSiteDat = Resolve-OutputPath $GeoSiteDat @($completeGeoSite)
+}
+
 function Read-Varint {
     param([byte[]]$buf, [int]$i)
     [UInt64]$result = 0
