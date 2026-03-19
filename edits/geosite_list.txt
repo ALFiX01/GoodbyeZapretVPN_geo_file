@@ -121,6 +121,7 @@ domain:perm.ru
 domain:rrtp.ru
 domain:rshb.ru
 domain:sber.ru
+domain:cdnflow.ru
 domain:spvb.ru
 domain:tula.ru
 domain:tutu.ru
