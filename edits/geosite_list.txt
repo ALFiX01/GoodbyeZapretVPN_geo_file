@@ -1,4 +1,4 @@
-﻿[CATEGORY-PROXY-TUNNELS]
+[CATEGORY-PROXY-TUNNELS]
 domain:gql.twitch.tv
 domain:usher.ttvnw.net
 domain:jut.su
@@ -25,6 +25,7 @@ full:full:alt7-mtalk.google.com
 full:full:alt8-mtalk.google.com
 full:full:mtalk-staging.google.com
 domain:dns-shop.ru
+domain:nextdns.io
 domain:mvideo.ru
 domain:eldorado.ru
 domain:citilink.ru
