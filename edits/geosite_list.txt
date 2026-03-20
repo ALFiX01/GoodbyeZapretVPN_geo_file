@@ -628,3 +628,5 @@ domain:yting.com
 domain:googlevideo.com
 plain:youtube
 
+[TELEGRAM]
+domain:telegram.org
