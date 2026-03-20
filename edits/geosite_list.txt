@@ -1,4 +1,4 @@
-[CATEGORY-PROXY-TUNNELS]
+﻿[CATEGORY-PROXY-TUNNELS]
 domain:gql.twitch.tv
 domain:usher.ttvnw.net
 domain:jut.su
@@ -630,4 +630,23 @@ domain:googlevideo.com
 plain:youtube
 
 [TELEGRAM]
+domain:telegram.orgcdn-telegram.org
+domain:comments.app
+domain:contest.com
+domain:fragment.com
+domain:graph.org
+domain:quiz.directory
+domain:t.me
+domain:tdesktop.com
+domain:telega.one
+domain:telegra.ph
+domain:telegram-cdn.org
+domain:telegram.com
+domain:telegram.dog
+domain:telegram.me
 domain:telegram.org
+domain:telegram.space
+domain:telesco.pe
+domain:tg.dev
+domain:tx.me
+domain:usercontent.dev
