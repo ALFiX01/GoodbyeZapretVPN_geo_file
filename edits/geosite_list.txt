@@ -650,3 +650,11 @@ domain:telesco.pe
 domain:tg.dev
 domain:tx.me
 domain:usercontent.dev
+
+[YT-ADS]
+domain:ad.doubleclick.net
+domain:doubleclick.net
+domain:pagead2.googlesyndication.com
+domain:googleads.g.doubleclick.net
+domain:ad.youtube.com
+domain:ads.youtube.com
