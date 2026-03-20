@@ -657,3 +657,9 @@ domain:pagead2.googlesyndication.com
 domain:googleads.g.doubleclick.net
 domain:ad.youtube.com
 domain:ads.youtube.com
+
+[STEAM-DOWNLOAD]
+steamcontent.com
+steampowered.com
+akamaihd.net
+steamcdn-a.akamaihd.net
