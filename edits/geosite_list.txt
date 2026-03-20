@@ -659,7 +659,7 @@ domain:ad.youtube.com
 domain:ads.youtube.com
 
 [STEAM-DOWNLOAD]
-steamcontent.com
-steampowered.com
-akamaihd.net
-steamcdn-a.akamaihd.net
+domain:steamcontent.com
+domain:steampowered.com
+domain:akamaihd.net
+domain:steamcdn-a.akamaihd.net
