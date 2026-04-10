@@ -39,6 +39,7 @@ full:full:alt6-mtalk.google.com
 full:full:alt7-mtalk.google.com
 full:full:alt8-mtalk.google.com
 full:full:mtalk-staging.google.com
+domain:lovecat.mooo.com
 domain:dns-shop.ru
 domain:nextdns.io
 domain:mvideo.ru
