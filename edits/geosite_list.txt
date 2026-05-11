@@ -236,6 +236,8 @@ domain:koenig.ru
 domain:kurgan.ru
 domain:litres.ru
 domain:magnit.ru
+domain:kaspersky-labs.com
+domain:yandexcloud.net
 domain:marine.ru
 domain:mgfoms.ru
 domain:mosreg.ru
